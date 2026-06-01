@@ -1,47 +1,34 @@
-// Authentic Vespa GTS silhouette — facing LEFT
-// ViewBox: 0 0 300 165
+// Vespa GTS — facing LEFT, bold flat-design silhouette readable at all sizes
 export default function VespaLogo({ size = 'natural', className = '' }) {
   const dims = {
-    nav:        { width: 48,    height: 28  },
-    footer:     { width: 34,    height: 20  },
-    transition: { width: 200,   height: 116 },
-    hero:       { width: '100%',height: '100%' },
-    natural:    { width: 300,   height: 165 },
+    nav:        { width: 48,     height: 28   },
+    footer:     { width: 34,     height: 20   },
+    transition: { width: 200,    height: 116  },
+    hero:       { width: '100%', height: '100%' },
+    natural:    { width: 300,    height: 165  },
   }
   const d = dims[size] || dims.natural
 
-  const Wheel = ({ cx, cy, r }) => {
-    const spokes = [0, 45, 90, 135]
-    return (
-      <g>
-        {/* Tyre */}
-        <circle cx={cx} cy={cy} r={r} fill="#E8ECF5" stroke="#1B3A8C" strokeWidth="6" />
-        {/* Rim */}
-        <circle cx={cx} cy={cy} r={r - 8} fill="none" stroke="#2A4FA8" strokeWidth="1.5" />
-        {/* Spokes — hub to rim */}
-        {spokes.map(angle => {
-          const a = (angle * Math.PI) / 180
-          return (
-            <g key={angle}>
-              <line
-                x1={cx + Math.cos(a) * 5}  y1={cy + Math.sin(a) * 5}
-                x2={cx + Math.cos(a) * (r - 9)} y2={cy + Math.sin(a) * (r - 9)}
-                stroke="#1B3A8C" strokeWidth="1.5"
-              />
-              <line
-                x1={cx - Math.cos(a) * 5}  y1={cy - Math.sin(a) * 5}
-                x2={cx - Math.cos(a) * (r - 9)} y2={cy - Math.sin(a) * (r - 9)}
-                stroke="#1B3A8C" strokeWidth="1.5"
-              />
-            </g>
-          )
-        })}
-        {/* Hub */}
-        <circle cx={cx} cy={cy} r={5} fill="#1B3A8C" />
-        <circle cx={cx} cy={cy} r={2.5} fill="#2A4FA8" />
-      </g>
-    )
-  }
+  // Wheel with bold spokes — clear at small sizes
+  const Wheel = ({ cx, cy, r }) => (
+    <g>
+      <circle cx={cx} cy={cy} r={r} fill="#1B3A8C" />
+      <circle cx={cx} cy={cy} r={r - 6} fill="#E8ECF5" />
+      {/* 8 spokes as white lines crossing through center */}
+      {[0, 22.5, 45, 67.5].map(deg => {
+        const a = deg * Math.PI / 180
+        return (
+          <g key={deg}>
+            <line x1={cx + Math.cos(a)*(r-6)} y1={cy + Math.sin(a)*(r-6)}
+                  x2={cx - Math.cos(a)*(r-6)} y2={cy - Math.sin(a)*(r-6)}
+                  stroke="#1B3A8C" strokeWidth="2" />
+          </g>
+        )
+      })}
+      <circle cx={cx} cy={cy} r={r - 6} fill="none" stroke="#1B3A8C" strokeWidth="1.5" />
+      <circle cx={cx} cy={cy} r={4} fill="#1B3A8C" />
+    </g>
+  )
 
   return (
     <svg
@@ -53,177 +40,148 @@ export default function VespaLogo({ size = 'natural', className = '' }) {
       className={className}
       aria-label="Vespa scooter"
     >
-      {/* ── REAR WHEEL (right) ── */}
-      <Wheel cx={240} cy={122} r={36} />
+      {/* ── REAR WHEEL ── */}
+      <Wheel cx={238} cy={122} r={34} />
 
-      {/* ── FRONT WHEEL (left) ── */}
-      <Wheel cx={60} cy={122} r={36} />
+      {/* ── FRONT WHEEL ── */}
+      <Wheel cx={62} cy={122} r={34} />
 
-      {/* ── FOOTBOARD PLATFORM ── */}
-      <path
-        d="M 96,116 L 200,116 L 200,124 Q 150,126 96,124 Z"
-        fill="#C9A020"
-      />
+      {/* ── STEP PLATFORM ── */}
+      <rect x={94} y={116} width={112} height={10} rx={4} fill="#C9A020" />
 
-      {/* ── MAIN BODY — large organic egg-shaped monocoque ── */}
+      {/* ── MAIN BODY — the signature Vespa egg/monocoque ── */}
       <path
         d="
-          M 134,118
-          C 130,104 124,86  124,68
-          C 124,54  132,42  150,38
-          C 168,34  195,35  216,40
-          C 237,45  256,56  264,72
-          C 271,86  271,102 266,114
-          C 262,122 254,128 244,129
-          C 216,131 172,128 148,122
-          C 140,120 136,119 134,118
+          M 136,114
+          C 132,96  126,74  128,56
+          C 130,42  142,34  162,32
+          C 182,30  214,32  236,40
+          C 258,48  274,66  274,86
+          C 274,104 264,118 250,124
+          C 236,130 200,130 168,124
+          C 152,120 140,118 136,114
           Z
         "
         fill="#E8C44A"
       />
-      {/* Body gloss highlight */}
+
+      {/* Body gloss — upper highlight */}
       <path
         d="
-          M 148,42
-          C 168,37  196,38  216,44
-          C 234,49  250,60  258,74
-          C 262,82  262,92  258,100
-          C 248,96  234,88  218,82
-          C 198,75  172,70  154,68
-          C 140,66  130,60  128,52
-          C 131,46  138,43  148,42
+          M 162,34
+          C 188,31  220,35  242,46
+          C 260,55  272,70  270,86
+          C 264,80  252,68  236,60
+          C 216,50  188,44  162,42
+          C 148,40  138,42  132,48
+          C 132,40  144,35  162,34
           Z
         "
-        fill="#F2D060"
-        opacity="0.55"
-      />
-
-      {/* ── REAR FENDER (hugs top of rear wheel) ── */}
-      <path
-        d="M 210,100 Q 228,88 248,90 Q 262,92 266,104"
-        stroke="#C9A020"
-        strokeWidth="4"
-        fill="none"
-        strokeLinecap="round"
-      />
-
-      {/* ── FRONT LEGSHIELD / APRON — signature Vespa teardrop ── */}
-      <path
-        d="
-          M 92,120
-          C 84,116 78,108 78,96
-          C 78,82  82,68  88,58
-          C 92,50  100,44  112,44
-          C 122,44  128,50  128,62
-          C 128,74  122,90  116,104
-          C 112,114 104,120  96,122
-          Z
-        "
-        fill="#E8C44A"
-      />
-      {/* Legshield shadow/depth */}
-      <path
-        d="
-          M 92,120
-          C 86,114  82,106  82,96
-          C 82,82   86,68   92,58
-          L 88,58
-          C 82,68   78,82   78,96
-          C 78,108  84,116  92,120
-          Z
-        "
-        fill="#C9A020"
-        opacity="0.45"
-      />
-      {/* Legshield gloss */}
-      <path
-        d="M 110,48 C 120,50 126,58 124,68 C 118,64 110,58 106,52 Z"
-        fill="#F2D060"
-        opacity="0.5"
-      />
-
-      {/* ── FRONT FORK (wheel hub → legshield bottom) ── */}
-      <line
-        x1="60" y1="90"
-        x2="90" y2="116"
-        stroke="#1B3A8C" strokeWidth="5" strokeLinecap="round"
-      />
-      <line
-        x1="62" y1="88"
-        x2="90" y2="112"
-        stroke="#2A4FA8" strokeWidth="2.5" strokeLinecap="round"
-      />
-
-      {/* ── SEAT (long slim bench on body top) ── */}
-      <path
-        d="
-          M 148,52
-          C 160,44  184,40  208,42
-          C 224,43  236,48  238,56
-          C 238,62  234,68  224,70
-          C 206,74  178,74  158,70
-          C 146,68  142,62  144,56
-          C 145,54  146,52  148,52
-          Z
-        "
-        fill="#8B6F52"
-      />
-      {/* Seat gloss */}
-      <path
-        d="M 156,46 C 174,42 202,42 218,46 C 228,49 234,54 232,58 C 222,54 202,50 180,50 C 164,50 152,52 152,52 C 152,50 154,47 156,46 Z"
-        fill="#A88060"
+        fill="#F5DC7A"
         opacity="0.6"
       />
 
+      {/* ── REAR FENDER ── */}
+      <path
+        d="M 206,102 Q 224,90 244,92 Q 264,94 270,108"
+        stroke="#C9A020" strokeWidth="5" fill="none" strokeLinecap="round"
+      />
+
+      {/* ── FRONT LEGSHIELD — the most iconic Vespa element ── */}
+      <path
+        d="
+          M 90,118
+          C 80,112 72,100 72,86
+          C 72,70  78,56  86,48
+          C 92,42  104,38  116,40
+          C 128,42  134,54  132,68
+          C 130,84  122,100 116,110
+          C 110,118 100,122 94,120
+          Z
+        "
+        fill="#E8C44A"
+      />
+      {/* Legshield left shadow */}
+      <path
+        d="
+          M 90,118
+          C 82,110 76,98 76,86
+          C 76,70  80,56  88,48
+          L 86,48
+          C 78,56  72,70  72,86
+          C 72,100 80,112 90,118 Z
+        "
+        fill="#C9A020"
+        opacity="0.5"
+      />
+      {/* Legshield gloss */}
+      <path
+        d="M 112,42 C 124,46 130,58 126,70 C 120,64 112,56 108,48 Z"
+        fill="#F5DC7A" opacity="0.55"
+      />
+
+      {/* ── FRONT FORK ── */}
+      <line x1="62" y1="92" x2="86" y2="114"
+            stroke="#1B3A8C" strokeWidth="6" strokeLinecap="round" />
+
+      {/* ── SEAT ── */}
+      <path
+        d="
+          M 152,46
+          C 168,38  198,36  220,40
+          C 236,44  244,52  242,62
+          C 240,68  232,72  216,74
+          C 196,76  168,74  154,68
+          C 142,64  140,56  144,50
+          Z
+        "
+        fill="#6B5240"
+      />
+      {/* Seat highlight */}
+      <path
+        d="M 160,40 C 182,36 210,38 226,44 C 234,48 238,54 234,58 C 222,52 198,46 172,44 C 160,43 152,44 152,44 Z"
+        fill="#8B6F52" opacity="0.7"
+      />
+
       {/* ── HANDLEBARS ── */}
-      {/* Stem from apron top */}
-      <line x1="112" y1="68" x2="112" y2="48" stroke="#1B3A8C" strokeWidth="4" strokeLinecap="round" />
-      {/* Crossbar */}
-      <line x1="96" y1="50" x2="132" y2="50" stroke="#1B3A8C" strokeWidth="4" strokeLinecap="round" />
-      {/* Left grip */}
-      <rect x="93" y="44" width="9" height="16" rx="4" fill="#0F2460" />
-      {/* Right grip */}
-      <rect x="128" y="44" width="9" height="16" rx="4" fill="#0F2460" />
-      {/* Brake lever left */}
-      <line x1="100" y1="50" x2="95" y2="58" stroke="#2A4FA8" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="114" y1="72" x2="114" y2="50"
+            stroke="#1B3A8C" strokeWidth="5" strokeLinecap="round" />
+      <line x1="96"  y1="52" x2="134" y2="52"
+            stroke="#1B3A8C" strokeWidth="5" strokeLinecap="round" />
+      <rect x="92"  y="45" width="10" height="18" rx="4" fill="#0F2460" />
+      <rect x="130" y="45" width="10" height="18" rx="4" fill="#0F2460" />
 
       {/* ── HEADLIGHT ── */}
-      <circle cx="88" cy="82" r="12" fill="white" stroke="#1B3A8C" strokeWidth="2" />
-      <circle cx="88" cy="82" r="8"  fill="#FFFDE0" />
-      <circle cx="85" cy="79" r="2.5" fill="white" opacity="0.9" />
+      <circle cx="88" cy="84" r="13" fill="#1B3A8C" />
+      <circle cx="88" cy="84" r="10" fill="white" />
+      <circle cx="88" cy="84" r="7"  fill="#FFFDE7" />
+      <circle cx="85" cy="81" r="2"  fill="white" opacity="0.9" />
 
-      {/* ── MIRROR (left handlebar) ── */}
-      <line x1="97" y1="50" x2="94" y2="40" stroke="#1B3A8C" strokeWidth="2" strokeLinecap="round" />
-      <ellipse cx="92" cy="37" rx="6" ry="4" fill="#2A4FA8" opacity="0.9" />
+      {/* ── MIRROR ── */}
+      <line x1="98" y1="52" x2="95" y2="40"
+            stroke="#1B3A8C" strokeWidth="2.5" strokeLinecap="round" />
+      <ellipse cx="93" cy="37" rx="7" ry="4.5"
+               fill="#2A4FA8" stroke="#1B3A8C" strokeWidth="1" />
 
-      {/* ── VENT SLATS (side panel on body) ── */}
-      {[0,7,14,21].map(offset => (
-        <line
-          key={offset}
-          x1={200} y1={92 + offset}
-          x2={217} y2={90 + offset}
-          stroke="#C9A020" strokeWidth="2" strokeLinecap="round"
-          opacity="0.8"
-        />
+      {/* ── VENT SLATS ── */}
+      {[0, 8, 16, 24].map(o => (
+        <line key={o} x1={202} y1={90+o} x2={220} y2={88+o}
+              stroke="#C9A020" strokeWidth="2.5" strokeLinecap="round" opacity="0.85" />
       ))}
 
-      {/* ── EXHAUST PIPE ── */}
+      {/* ── EXHAUST ── */}
       <path
-        d="M 244,130 Q 252,136 244,140 Q 230,143 210,142 Q 196,141 188,138"
-        stroke="#7A82A8" strokeWidth="6" fill="none" strokeLinecap="round"
+        d="M 244,130 Q 254,138 244,142 Q 228,146 206,144 Q 190,142 182,138"
+        stroke="#5A6280" strokeWidth="7" fill="none" strokeLinecap="round"
       />
       <path
-        d="M 244,130 Q 252,136 244,140 Q 230,143 210,142 Q 196,141 188,138"
-        stroke="#3A4260" strokeWidth="3" fill="none" strokeLinecap="round"
+        d="M 244,130 Q 254,138 244,142 Q 228,146 206,144 Q 190,142 182,138"
+        stroke="#3A4260" strokeWidth="4" fill="none" strokeLinecap="round"
       />
 
       {/* ── TAIL LIGHT ── */}
-      <ellipse cx="263" cy="108" rx="6" ry="4" fill="#E8C44A" />
-      <ellipse cx="264" cy="108" rx="3" ry="2" fill="white" opacity="0.7" />
-
-      {/* ── GTS BADGE ── */}
-      <ellipse cx="232" cy="82" rx="11" ry="6" fill="#C9A020" />
-      <text x="232" y="85" textAnchor="middle" fontSize="5.5" fontFamily="Georgia, serif" fill="#1B3A8C" fontWeight="bold" letterSpacing="0.5">GTS</text>
+      <ellipse cx="266" cy="108" rx="7" ry="5" fill="#E8C44A" />
+      <ellipse cx="267" cy="108" rx="4" ry="3" fill="white" opacity="0.75" />
     </svg>
   )
 }
