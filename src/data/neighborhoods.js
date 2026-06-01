@@ -9,7 +9,7 @@ export const neighborhoodsData = [
     bestFor: "Authentic Roman dining, evening walks, neighbourhood feel",
     stayTip: "Stay in an apartment rather than a hotel — Residenza Arco dei Tolomei or similar gives you a genuine Trastevere life.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?trastevere,rome,cobblestone,italy"
+    img: "https://picsum.photos/seed/trastevere-rome-cobblestone/800/600"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const neighborhoodsData = [
     bestFor: "Upscale dining, gallery access, quiet streets, safety",
     stayTip: "Hotel Lord Byron — a Liberty-era mansion that is Rome's best-kept luxury secret.",
     scores: { location: 4, value: 3, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?rome,elegant,boulevard,italy"
+    img: "https://picsum.photos/seed/rome-elegant-boulevard/800/600"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const neighborhoodsData = [
     bestFor: "Artisan culture, local restaurants, Pitti Palace, Boboli Gardens",
     stayTip: "Appartamento Firenze or Soprarno Suites — both have authentic Florentine character.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?florence,oltrarno,arno,italy"
+    img: "https://picsum.photos/seed/florence-oltrarno-arno/800/600"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const neighborhoodsData = [
     bestFor: "Authentic Venice, local bars, Jewish history, value accommodation",
     stayTip: "Palazzo Abadessa — a genuine Gothic palazzo away from the tourist circuit.",
     scores: { location: 4, value: 4, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?venice,cannaregio,canal,quiet"
+    img: "https://picsum.photos/seed/venice-cannaregio-quiet/800/600"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ export const neighborhoodsData = [
     bestFor: "Aperitivo culture, nightlife, vintage shopping, design scene",
     stayTip: "Arlo Milano — boutique hotel that anchors perfectly in the Navigli social orbit.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?milan,navigli,canal,aperitivo"
+    img: "https://picsum.photos/seed/milan-navigli-canal/800/600"
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ export const neighborhoodsData = [
     bestFor: "Safety, fine dining, seafront walking, upscale shopping",
     stayTip: "Grand Hotel Vesuvio — the grand dame of Naples hotels, on the seafront.",
     scores: { location: 5, value: 3, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?naples,seafront,elegant,italy"
+    img: "https://picsum.photos/seed/naples-chiaia-seafront/800/600"
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ export const neighborhoodsData = [
     bestFor: "Upscale Palermo life, theatre, opera, beach access",
     stayTip: "Hotel Porta Felice — overlooks the Foro Italico seafront.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?palermo,sicily,street,italy"
+    img: "https://picsum.photos/seed/palermo-street-sicily/800/600"
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ export const neighborhoodsData = [
     bestFor: "Food culture, local life, medieval architecture, value",
     stayTip: "Hotel I Portici — under the oldest porticoes in Bologna.",
     scores: { location: 5, value: 4, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?bologna,portico,italy,medieval"
+    img: "https://picsum.photos/seed/bologna-portico-medieval/800/600"
   },
   {
     id: 9,
@@ -105,6 +105,6 @@ export const neighborhoodsData = [
     bestFor: "History, quiet streets, swimming from rocks, Sicilian baroque",
     stayTip: "Gutkowski Hotel — a design hotel with rooms over the sea. Book far in advance.",
     scores: { location: 5, value: 4, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?siracusa,ortigia,sicily,baroque"
+    img: "https://picsum.photos/seed/siracusa-ortigia-sicily/800/600"
   }
 ]

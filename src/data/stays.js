@@ -10,7 +10,7 @@ export const staysData = [
     price: "€750",
     priceNote: "per night",
     scores: { walkability: 5, safety: 5, family: 4 },
-    img: "https://source.unsplash.com/800x600/?luxury,hotel,rome,garden",
+    img: "https://picsum.photos/seed/rome-luxury-hotel-garden/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["5 Star", "Pool", "Garden Terrace"]
@@ -26,7 +26,7 @@ export const staysData = [
     price: "€900",
     priceNote: "per night",
     scores: { walkability: 3, safety: 5, family: 3 },
-    img: "https://source.unsplash.com/800x600/?tuscany,villa,luxury,florence",
+    img: "https://picsum.photos/seed/tuscany-renaissance-villa/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Historic", "Views", "Michelin Restaurant"]
@@ -42,7 +42,7 @@ export const staysData = [
     price: "€1,100",
     priceNote: "per night",
     scores: { walkability: 2, safety: 5, family: 3 },
-    img: "https://source.unsplash.com/800x600/?luxury,pool,resort,italy,cove",
+    img: "https://picsum.photos/seed/italy-resort-private-cove/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Michelin", "Private Cove", "Legendary"]
@@ -58,7 +58,7 @@ export const staysData = [
     price: "€320",
     priceNote: "per night",
     scores: { walkability: 2, safety: 5, family: 4 },
-    img: "https://source.unsplash.com/800x600/?masseria,puglia,olive,farm",
+    img: "https://picsum.photos/seed/puglia-masseria-olive-farm/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Farm Stay", "Organic", "Authentic Puglia"]
@@ -74,7 +74,7 @@ export const staysData = [
     price: "€480",
     priceNote: "per night",
     scores: { walkability: 2, safety: 5, family: 3 },
-    img: "https://source.unsplash.com/800x600/?venice,lagoon,island,boutique",
+    img: "https://picsum.photos/seed/venice-lagoon-boutique/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Island", "Historic", "Hemingway"]
@@ -90,7 +90,7 @@ export const staysData = [
     price: "€180",
     priceNote: "per night",
     scores: { walkability: 4, safety: 5, family: 3 },
-    img: "https://source.unsplash.com/800x600/?positano,terrace,view,boutique",
+    img: "https://picsum.photos/seed/positano-family-terrace/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Value", "Family Run", "Views"]
@@ -106,7 +106,7 @@ export const staysData = [
     price: "€650",
     priceNote: "per night",
     scores: { walkability: 3, safety: 5, family: 2 },
-    img: "https://source.unsplash.com/800x600/?ravello,villa,infinity,pool,amalfi",
+    img: "https://picsum.photos/seed/ravello-clifftop-infinity-pool/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Clifftop", "Infinity Pool", "Historic"]
@@ -122,7 +122,7 @@ export const staysData = [
     price: "€35",
     priceNote: "per night (dorm) / €90 private",
     scores: { walkability: 5, safety: 3, family: 2 },
-    img: "https://source.unsplash.com/800x600/?naples,rooftop,terrace,italy",
+    img: "https://picsum.photos/seed/naples-rooftop-view/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Budget", "Rooftop", "Naples"]
@@ -138,7 +138,7 @@ export const staysData = [
     price: "€120",
     priceNote: "per night",
     scores: { walkability: 4, safety: 5, family: 4 },
-    img: "https://source.unsplash.com/800x600/?trullo,alberobello,puglia,unique",
+    img: "https://picsum.photos/seed/alberobello-trullo-stay/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Trullo", "Unique", "Puglia"]
@@ -154,7 +154,7 @@ export const staysData = [
     price: "€550",
     priceNote: "per night",
     scores: { walkability: 5, safety: 5, family: 3 },
-    img: "https://source.unsplash.com/800x600/?taormina,hotel,sicily,luxury",
+    img: "https://picsum.photos/seed/taormina-sicily-hotel/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["5 Star", "Michelin", "Taormina"]
@@ -170,7 +170,7 @@ export const staysData = [
     price: "€780",
     priceNote: "per night",
     scores: { walkability: 2, safety: 5, family: 3 },
-    img: "https://source.unsplash.com/800x600/?castle,tuscany,wine,luxury,italy",
+    img: "https://picsum.photos/seed/tuscany-castle-wine-estate/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Castle", "Wine Estate", "Spa"]
@@ -186,7 +186,7 @@ export const staysData = [
     price: "€160",
     priceNote: "per night (family bungalow)",
     scores: { walkability: 4, safety: 5, family: 5 },
-    img: "https://source.unsplash.com/800x600/?family,resort,beach,italy,pool",
+    img: "https://picsum.photos/seed/rimini-family-beach-resort/800/600",
     bookingUrl: "#",
     website: "#",
     tags: ["Family", "Beach", "Kids Club"]

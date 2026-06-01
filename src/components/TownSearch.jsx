@@ -116,8 +116,13 @@ export default function TownSearch({ placeholder = "Search Italian cities & regi
     // Fallback to local list
     const q = input.toLowerCase()
     const filtered = FALLBACK_TOWNS.filter(t =>
-      t.name.toLowerCase().startsWith(q) || t.region.toLowerCase().startsWith(q)
-    ).slice(0, 8)
+      t.name.toLowerCase().includes(q) || t.region.toLowerCase().includes(q)
+    ).sort((a, b) => {
+      // Prefer startsWith matches over includes
+      const aStarts = a.name.toLowerCase().startsWith(q) ? 0 : 1
+      const bStarts = b.name.toLowerCase().startsWith(q) ? 0 : 1
+      return aStarts - bStarts
+    }).slice(0, 8)
     setSuggestions(filtered)
     setOpen(filtered.length > 0)
   }, [])

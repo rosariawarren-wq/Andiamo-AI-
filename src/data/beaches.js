@@ -7,7 +7,7 @@ export const beachesData = [
     nightlifeDescription: "Very limited — a couple of beach bars, early nights. Come for the sea, not the scene.",
     nearbyHotels: ["Baia Turchese", "Lampedusa Resort", "Hotel Lido Azzurro"],
     scores: { overall: 5, family: 5, nightlife: 1, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?white,sand,beach,turquoise,water",
+    img: "https://picsum.photos/seed/lampedusa-white-sand-beach/800/600",
     tags: ["World Class", "Turtles", "No Crowds"],
     filter: "Hidden Spots"
   },
@@ -19,7 +19,7 @@ export const beachesData = [
     nightlifeDescription: "Zero — pure wilderness. The nearest bar is a 45-minute boat ride. Perfect.",
     nearbyHotels: ["Hotel Su Barone", "Rifugio Gorropu", "Bari Sardo"],
     scores: { overall: 5, family: 4, nightlife: 1, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?sardinia,cove,beach,crystal",
+    img: "https://picsum.photos/seed/sardinia-crystal-cove-blue/800/600",
     tags: ["Boat Access", "Pebble Beach", "Crystal Water"],
     filter: "Hidden Spots"
   },
@@ -31,7 +31,7 @@ export const beachesData = [
     nightlifeDescription: "L'Africana disco cave and Buca di Bacco terrace — expensive, fabulous and worth it once. The beach bars are world-class for Aperol at sunset.",
     nearbyHotels: ["Il San Pietro", "Le Sirenuse", "Hotel Marincanto"],
     scores: { overall: 4, family: 3, nightlife: 4, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?positano,beach,amalfi,coast",
+    img: "https://picsum.photos/seed/positano-beach-amalfi/800/600",
     tags: ["Iconic", "Beach Clubs", "Amalfi"],
     filter: "Beach Clubs"
   },
@@ -43,7 +43,7 @@ export const beachesData = [
     nightlifeDescription: "Vibrant summer scene — the lungomare comes alive at midnight. Outdoor clubs, gelato bars and families mixing with the nightlife crowd until 3am.",
     nearbyHotels: ["Grand Hotel Mondello", "Hotel Splendid", "Villa Costa"],
     scores: { overall: 4, family: 4, nightlife: 4, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?sicily,beach,palermo,sand",
+    img: "https://picsum.photos/seed/palermo-mondello-beach/800/600",
     tags: ["Sandy Beach", "Local Life", "Lively"],
     filter: "Best Nightlife"
   },
@@ -55,7 +55,7 @@ export const beachesData = [
     nightlifeDescription: "During the Film Festival (August-September) it's the most glamorous beach in Italy. Year-round the Bar Excelsior terrace is worth the vaporetto trip.",
     nearbyHotels: ["Hotel Excelsior", "Villa Mabapa", "Quattro Fontane"],
     scores: { overall: 4, family: 4, nightlife: 3, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?venice,lido,beach,italy",
+    img: "https://picsum.photos/seed/venice-lido-sandy-beach/800/600",
     tags: ["Art Deco", "Film Festival", "Sandy"],
     filter: "Family Friendly"
   },
@@ -67,7 +67,7 @@ export const beachesData = [
     nightlifeDescription: "Lively summer evenings with the Cous Cous Fest (September), beachfront bars and a relaxed Sicilian social scene that runs until 2am.",
     nearbyHotels: ["Hotel Capo San Vito", "Resort Cala Petrolo", "B&B Baglio"],
     scores: { overall: 5, family: 5, nightlife: 3, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?sicily,white,sand,beach,clear",
+    img: "https://picsum.photos/seed/sicily-san-vito-beach/800/600",
     tags: ["Top Rated", "White Sand", "Clear Water"],
     filter: "Family Friendly"
   },
@@ -79,7 +79,7 @@ export const beachesData = [
     nightlifeDescription: "Italy's beach nightlife capital — Riccione next door has Byblos, Cocoricò and Carnaby. The original Italian disco experience, completely unironic and completely wonderful.",
     nearbyHotels: ["Hotel Principe", "Grand Hotel Rimini", "Hotel Lungomare"],
     scores: { overall: 3, family: 5, nightlife: 5, safety: 4 },
-    img: "https://source.unsplash.com/800x600/?beach,club,italy,summer,resort",
+    img: "https://picsum.photos/seed/rimini-beach-clubs-italy/800/600",
     tags: ["Nightlife", "Family", "Beach Clubs"],
     filter: "Best Nightlife"
   },
@@ -91,7 +91,7 @@ export const beachesData = [
     nightlifeDescription: "Calm and charming — sundown Aperol on the clifftop promenade, small bars, early nights. The scenery is the entertainment.",
     nearbyHotels: ["L'Approdo Resort", "Cala di Volpe Tropea", "Il Barone"],
     scores: { overall: 5, family: 4, nightlife: 2, safety: 5 },
-    img: "https://source.unsplash.com/800x600/?tropea,calabria,cliff,beach",
+    img: "https://picsum.photos/seed/tropea-cliff-beach-calabria/800/600",
     tags: ["Clifftop Town", "Caribbean Water", "Hidden"],
     filter: "Hidden Spots"
   }

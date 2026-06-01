@@ -6,7 +6,7 @@ export const familyActivities = [
     region: "Palermo, Sicily",
     description: "The ancient Sicilian puppet theatre tradition — fierce Norman knights battling in epic Arthurian tales. A UNESCO intangible heritage performance that will captivate kids and adults equally.",
     price: "€12/child, €15/adult",
-    img: "https://source.unsplash.com/800x600/?puppet,theatre,sicily,children"
+    img: "https://picsum.photos/seed/palermo-puppet-theatre/800/600"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const familyActivities = [
     region: "Naples",
     description: "A kid-focused archaeological guide brings Pompeii to life with stories, challenges and age-appropriate history. The casts of people frozen in 79AD are extraordinary and handled sensitively.",
     price: "€45/family",
-    img: "https://source.unsplash.com/800x600/?pompeii,ruins,archaeology,family"
+    img: "https://picsum.photos/seed/pompeii-family-archaeology/800/600"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const familyActivities = [
     region: "Florence",
     description: "A gelateria masterclass designed for families — children choose flavours, learn the difference between gelato and ice cream and make their own cup to take home.",
     price: "€35/child",
-    img: "https://source.unsplash.com/800x600/?gelato,children,making,italy"
+    img: "https://picsum.photos/seed/gelato-children-italy/800/600"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const familyActivities = [
     region: "Lake Garda, Lombardy",
     description: "Italy's largest theme park and water park on the shores of Lake Garda. Gardaland Resort has rides for all ages, shows and a hotel with theme rooms. The ultimate Italian family day.",
     price: "€38/child, €44/adult",
-    img: "https://source.unsplash.com/800x600/?theme,park,family,children,rides"
+    img: "https://picsum.photos/seed/theme-park-family-italy/800/600"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const familyActivities = [
     region: "Rome",
     description: "Rome's best children's museum — interactive science and art exhibits, water play area, and cooking workshops all in Italian and English. Perfect for rainy days near the Piazza del Popolo.",
     price: "€8/child",
-    img: "https://source.unsplash.com/800x600/?children,museum,interactive,italy"
+    img: "https://picsum.photos/seed/rome-children-museum/800/600"
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const familyActivities = [
     region: "Cinque Terre",
     description: "A shared boat circles all five villages from the sea — swimming stops in hidden coves, focaccia and prosecco on board, the only way to see Cinque Terre properly with young children who can't hike.",
     price: "€30/adult, €15/child",
-    img: "https://source.unsplash.com/800x600/?boat,tour,cinque,terre,family"
+    img: "https://picsum.photos/seed/cinque-terre-boat-family/800/600"
   }
 ]
 
@@ -93,7 +93,7 @@ export const familyStays = [
     type: "Family",
     description: "Sardinia's best family resort — private beach, three pools, mini club for ages 3-17, evening entertainment and genuine Sardinian family hospitality. Bungalow-style accommodation in a pine forest.",
     price: "€200/night",
-    img: "https://source.unsplash.com/800x600/?family,resort,sardinia,pool,beach"
+    img: "https://picsum.photos/seed/sardinia-family-resort-pool/800/600"
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ export const familyStays = [
     type: "Family",
     description: "A medieval village converted into a family resort — swimming pools, a tennis academy, horse riding, a farm with animals for children and a restaurant with a children's menu. 1,100 hectares of Tuscan countryside.",
     price: "€320/night",
-    img: "https://source.unsplash.com/800x600/?tuscany,resort,family,pool,italy"
+    img: "https://picsum.photos/seed/tuscany-family-resort/800/600"
   },
   {
     id: 3,
@@ -111,7 +111,7 @@ export const familyStays = [
     type: "Family",
     description: "The only large family-friendly hotel within walking distance of St Mark's — family rooms sleeping 4, a courtyard garden for children, and genuinely family-welcoming staff who help navigate Venice with kids.",
     price: "€280/night",
-    img: "https://source.unsplash.com/800x600/?venice,hotel,family,palazzo,italy"
+    img: "https://picsum.photos/seed/venice-family-palazzo-hotel/800/600"
   }
 ]
 

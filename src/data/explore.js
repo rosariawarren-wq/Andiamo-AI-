@@ -10,7 +10,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 12400,
     price: "€€",
-    img: "https://source.unsplash.com/800x600/?greek,temple,ancient,sicily",
+    img: "https://picsum.photos/seed/greek-temple-sicily/800/600",
     tags: ["Ancient History", "UNESCO", "Architecture"]
   },
   {
@@ -24,7 +24,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 3200,
     price: "€€€",
-    img: "https://source.unsplash.com/800x600/?vineyard,volcano,sicily,wine",
+    img: "https://picsum.photos/seed/etna-vineyard-sicily/800/600",
     tags: ["Wine", "Volcano", "Food & Wine"]
   },
   {
@@ -38,7 +38,7 @@ export const exploreData = [
     rating: 4.9,
     reviewCount: 89000,
     price: "€€",
-    img: "https://source.unsplash.com/800x600/?colosseum,rome,ancient,italy",
+    img: "https://picsum.photos/seed/colosseum-rome-italy/800/600",
     tags: ["Ancient Rome", "UNESCO", "Iconic"]
   },
   {
@@ -52,7 +52,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 45000,
     price: "€",
-    img: "https://source.unsplash.com/800x600/?venice,canal,gondola,italy",
+    img: "https://picsum.photos/seed/venice-grand-canal/800/600",
     tags: ["Canals", "Architecture", "Iconic"]
   },
   {
@@ -66,7 +66,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 18000,
     price: "€",
-    img: "https://source.unsplash.com/800x600/?burano,colorful,houses,venice",
+    img: "https://picsum.photos/seed/burano-colorful-houses/800/600",
     tags: ["Colourful", "Islands", "Local Life"]
   },
   {
@@ -80,7 +80,7 @@ export const exploreData = [
     rating: 4.9,
     reviewCount: 32000,
     price: "Free",
-    img: "https://source.unsplash.com/800x600/?amalfi,coast,cliffs,italy",
+    img: "https://picsum.photos/seed/amalfi-coast-cliffs/800/600",
     tags: ["Scenic Drive", "Coast", "Nature"]
   },
   {
@@ -94,7 +94,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 67000,
     price: "€€",
-    img: "https://source.unsplash.com/800x600/?florence,art,renaissance,museum",
+    img: "https://picsum.photos/seed/florence-renaissance-art/800/600",
     tags: ["Art", "Renaissance", "Must-See"]
   },
   {
@@ -108,7 +108,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 22000,
     price: "€",
-    img: "https://source.unsplash.com/800x600/?sicily,ancient,theatre,taormina",
+    img: "https://picsum.photos/seed/taormina-ancient-theatre/800/600",
     tags: ["Ancient", "Theatre", "Views"]
   },
   {
@@ -122,7 +122,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 14000,
     price: "€",
-    img: "https://source.unsplash.com/800x600/?trulli,puglia,italy,stone",
+    img: "https://picsum.photos/seed/alberobello-trulli-puglia/800/600",
     tags: ["UNESCO", "Architecture", "Unique"]
   },
   {
@@ -136,7 +136,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 19000,
     price: "€",
-    img: "https://source.unsplash.com/800x600/?matera,cave,city,italy",
+    img: "https://picsum.photos/seed/matera-cave-city/800/600",
     tags: ["Cave City", "UNESCO", "History"]
   },
   {
@@ -150,7 +150,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 28000,
     price: "€€",
-    img: "https://source.unsplash.com/800x600/?lake,como,italy,mountains",
+    img: "https://picsum.photos/seed/lake-como-bellagio/800/600",
     tags: ["Lakes", "Luxury", "Nature"]
   },
   {
@@ -164,7 +164,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 52000,
     price: "€€",
-    img: "https://source.unsplash.com/800x600/?cinque,terre,italy,village",
+    img: "https://picsum.photos/seed/cinque-terre-villages/800/600",
     tags: ["Villages", "Hiking", "Coastal"]
   },
   {
@@ -178,7 +178,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 41000,
     price: "€€€",
-    img: "https://source.unsplash.com/800x600/?positano,amalfi,coast,italy",
+    img: "https://picsum.photos/seed/positano-amalfi-cliffside/800/600",
     tags: ["Cliffside", "Luxury", "Iconic"]
   },
   {
@@ -192,7 +192,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 8900,
     price: "€",
-    img: "https://source.unsplash.com/800x600/?calabria,beach,cliff,italy",
+    img: "https://picsum.photos/seed/tropea-calabria-cliff/800/600",
     tags: ["Beach", "Clifftop", "Hidden"]
   },
   {
@@ -206,7 +206,7 @@ export const exploreData = [
     rating: 4.9,
     reviewCount: 6700,
     price: "Free",
-    img: "https://source.unsplash.com/800x600/?sardinia,cove,crystal,beach",
+    img: "https://picsum.photos/seed/sardinia-crystal-cove/800/600",
     tags: ["Beach", "Hiking", "Secluded"]
   },
   {
@@ -220,7 +220,7 @@ export const exploreData = [
     rating: 4.6,
     reviewCount: 4200,
     price: "€€",
-    img: "https://source.unsplash.com/800x600/?cave,underground,italy,medieval",
+    img: "https://picsum.photos/seed/orvieto-medieval-cave/800/600",
     tags: ["Caves", "History", "Adventure"]
   },
   {
@@ -234,7 +234,7 @@ export const exploreData = [
     rating: 4.5,
     reviewCount: 3100,
     price: "Free",
-    img: "https://source.unsplash.com/800x600/?thermal,hot,spring,tuscany",
+    img: "https://picsum.photos/seed/tuscany-thermal-spring/800/600",
     tags: ["Thermal", "Nature", "Local Secret"]
   },
   {
@@ -248,7 +248,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 21000,
     price: "€€€€",
-    img: "https://source.unsplash.com/800x600/?portofino,harbour,italy,luxury",
+    img: "https://picsum.photos/seed/portofino-harbour-italy/800/600",
     tags: ["Luxury", "Harbour", "Glamour"]
   }
 ]
