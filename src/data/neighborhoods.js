@@ -1,0 +1,110 @@
+export const neighborhoodsData = [
+  {
+    id: 1,
+    city: "Rome",
+    name: "Trastevere",
+    region: "Rome",
+    vibe: "Local & Authentic",
+    description: "Rome's most beloved neighbourhood — cobbled alleys, ivy-covered facades, ivy-covered restaurants and a social scene that belongs to Romans not tourists. By day: artisan workshops and golden light. By night: the aperitivo hour that flows until 2am.",
+    bestFor: "Authentic Roman dining, evening walks, neighbourhood feel",
+    stayTip: "Stay in an apartment rather than a hotel — Residenza Arco dei Tolomei or similar gives you a genuine Trastevere life.",
+    scores: { location: 4, value: 4, safety: 4 },
+    img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80"
+  },
+  {
+    id: 2,
+    city: "Rome",
+    name: "Parioli",
+    region: "Rome",
+    vibe: "Luxury",
+    description: "Rome's most exclusive residential district — wide avenues, embassies and the international set. Villa Borghese gallery on your doorstep, no tourist crowds and the city's best traditional restaurants serving the Roman bourgeoisie.",
+    bestFor: "Upscale dining, gallery access, quiet streets, safety",
+    stayTip: "Hotel Lord Byron — a Liberty-era mansion that is Rome's best-kept luxury secret.",
+    scores: { location: 4, value: 3, safety: 5 },
+    img: "https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?w=800&q=80"
+  },
+  {
+    id: 3,
+    city: "Florence",
+    name: "Oltrarno",
+    region: "Tuscany",
+    vibe: "Local & Authentic",
+    description: "The 'other side of the Arno' — artisan workshops where leather-workers, gilders and bookbinders still ply 500-year-old trades. Santo Spirito piazza is Florence's true social hub, away from the Duomo crowds.",
+    bestFor: "Artisan culture, local restaurants, Pitti Palace, Boboli Gardens",
+    stayTip: "Appartamento Firenze or Soprarno Suites — both have authentic Florentine character.",
+    scores: { location: 4, value: 4, safety: 4 },
+    img: "https://images.unsplash.com/photo-1543039625-14b4bb8b8c5a?w=800&q=80"
+  },
+  {
+    id: 4,
+    city: "Venice",
+    name: "Cannaregio",
+    region: "Venice",
+    vibe: "Local & Authentic",
+    description: "The most Venetian neighbourhood for the least tourist-facing experience. The Jewish Ghetto (1516), the working-class bar culture of the Fondamenta della Misericordia and the Campo dei Mori away from the San Marco crowds.",
+    bestFor: "Authentic Venice, local bars, Jewish history, value accommodation",
+    stayTip: "Palazzo Abadessa — a genuine Gothic palazzo away from the tourist circuit.",
+    scores: { location: 4, value: 4, safety: 5 },
+    img: "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=800&q=80"
+  },
+  {
+    id: 5,
+    city: "Milan",
+    name: "Navigli",
+    region: "Milan",
+    vibe: "Lively & Social",
+    description: "Milan's canal district — Leonardo da Vinci designed the locks, now lined with vintage shops, aperitivo bars and the most social drinking culture in Italy. Friday-Sunday it becomes the best-dressed street party in Europe.",
+    bestFor: "Aperitivo culture, nightlife, vintage shopping, design scene",
+    stayTip: "Arlo Milano — boutique hotel that anchors perfectly in the Navigli social orbit.",
+    scores: { location: 4, value: 4, safety: 4 },
+    img: "https://images.unsplash.com/photo-1547150492-da7ff1742941?w=800&q=80"
+  },
+  {
+    id: 6,
+    city: "Naples",
+    name: "Chiaia",
+    region: "Naples",
+    vibe: "Luxury",
+    description: "Naples' most elegant and safest neighbourhood — seafront promenade, upscale boutiques on Via Calabritto, the Castel dell'Ovo at your feet and the best fish restaurants in the city. A complete contrast to the chaotic centro storico.",
+    bestFor: "Safety, fine dining, seafront walking, upscale shopping",
+    stayTip: "Grand Hotel Vesuvio — the grand dame of Naples hotels, on the seafront.",
+    scores: { location: 5, value: 3, safety: 5 },
+    img: "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80"
+  },
+  {
+    id: 7,
+    city: "Palermo",
+    name: "Mondello & Politeama",
+    region: "Sicily",
+    vibe: "Lively & Social",
+    description: "Palermo's bourgeois heartland — the Teatro Politeama, elegant cafés on Via Ruggero Settimo and the Art Nouveau villas of Viale della Libertà. A 20-minute drive reaches Mondello beach for the best urban beach life in Italy.",
+    bestFor: "Upscale Palermo life, theatre, opera, beach access",
+    stayTip: "Hotel Porta Felice — overlooks the Foro Italico seafront.",
+    scores: { location: 4, value: 4, safety: 4 },
+    img: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&q=80"
+  },
+  {
+    id: 8,
+    city: "Bologna",
+    name: "Quadrilatero",
+    region: "Emilia-Romagna",
+    vibe: "Local & Authentic",
+    description: "Italy's food capital compressed into four medieval streets. The Mercato di Mezzo, the best mortadella in the world at Simoni, and porticoes connecting everything in the rain. Walk with Bolognesi locals, eat as they eat.",
+    bestFor: "Food culture, local life, medieval architecture, value",
+    stayTip: "Hotel I Portici — under the oldest porticoes in Bologna.",
+    scores: { location: 5, value: 4, safety: 5 },
+    img: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+  },
+  {
+    id: 9,
+    city: "Siracusa",
+    name: "Ortigia Island",
+    region: "Sicily",
+    vibe: "Quiet & Calm",
+    description: "A tiny limestone island connected by a bridge — 2,700 years of unbroken history, Greek temples, Baroque palaces, Caravaggio's masterpiece in the Duomo and a market that has fed the city since antiquity. The most complete historic town in Sicily.",
+    bestFor: "History, quiet streets, swimming from rocks, Sicilian baroque",
+    stayTip: "Gutkowski Hotel — a design hotel with rooms over the sea. Book far in advance.",
+    scores: { location: 5, value: 4, safety: 5 },
+    img: "https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?w=800&q=80"
+  }
+]
