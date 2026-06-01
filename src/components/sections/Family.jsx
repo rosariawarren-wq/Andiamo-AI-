@@ -9,7 +9,7 @@ function ActivityCard({ item, onSave, isSaved, onClick }) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group" onClick={() => onClick(item)}>
       <div className="relative aspect-[4/3] overflow-hidden">
-        <img src={item.img} alt={item.name} onError={e => { e.target.onerror = null; e.target.src = "https://source.unsplash.com/800x600/?italy,travel" }} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+        <img src={item.img} alt={item.name} onError={e => { e.target.onerror = null; e.target.src = `https://picsum.photos/seed/${encodeURIComponent(e.target.alt || "italy")}/800/600` }} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
         <button
           onClick={e => { e.stopPropagation(); onSave(item, 'family') }}
@@ -63,7 +63,7 @@ function StayCard({ item }) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm card-hover">
       <div className="relative aspect-[4/3] overflow-hidden">
-        <img src={item.img} alt={item.name} onError={e => { e.target.onerror = null; e.target.src = "https://source.unsplash.com/800x600/?italy,travel" }} className="w-full h-full object-cover" loading="lazy" />
+        <img src={item.img} alt={item.name} onError={e => { e.target.onerror = null; e.target.src = `https://picsum.photos/seed/${encodeURIComponent(e.target.alt || "italy")}/800/600` }} className="w-full h-full object-cover" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
         <span className="absolute top-3 left-3 bg-[#E8C44A] text-[#1A2240] text-xs font-semibold px-2 py-1 rounded-full">{item.type}</span>
       </div>

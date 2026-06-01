@@ -1,6 +1,9 @@
 import { useState, useMemo } from 'react'
 import { beachesData } from '../../data/beaches'
+import TownSearch from '../TownSearch'
+import PlacesResults from '../PlacesResults'
 import Modal from '../Modal'
+import { usePlacesSearch } from '../../hooks/usePlacesSearch'
 
 const TABS = ['All', 'Family Friendly', 'Best Nightlife', 'Hidden Spots', 'Beach Clubs']
 
@@ -21,11 +24,17 @@ function BeachCard({ item, onSave, isSaved, onClick }) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group" onClick={() => onClick(item)}>
       <div className="relative aspect-video overflow-hidden">
-        <img src={item.img} alt={item.name} onError={e => { e.target.onerror = null; e.target.src = "https://source.unsplash.com/800x600/?italy,travel" }} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+        <img
+          src={item.img}
+          alt={item.name}
+          onError={e => { e.target.onerror = null; e.target.src = `https://picsum.photos/seed/${encodeURIComponent(item.name)}/800/600` }}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         <button
           onClick={e => { e.stopPropagation(); onSave(item, 'beaches') }}
-          className={`absolute top-3 right-3 p-2 rounded-full transition-all ${saved ? 'bg-[#E8C44A] text-[#1A2240]' : 'bg-white/80 text-[#1A2240] hover:bg-[#E8C44A]'}`}
+          className={`absolute top-3 right-3 p-2 rounded-full transition-all shadow-md ${saved ? 'bg-[#E8C44A] text-[#1A2240]' : 'bg-white/90 text-[#1A2240] hover:bg-[#E8C44A]'}`}
           aria-label={saved ? 'Remove from board' : 'Save to board'}
         >
           <svg className="w-4 h-4" fill={saved ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
@@ -59,9 +68,14 @@ function BeachCard({ item, onSave, isSaved, onClick }) {
 
 export default function Beaches({ addItem, removeItem, isSaved }) {
   const [tab, setTab] = useState('All')
+  const [search, setSearch] = useState('')
+  const [selectedTown, setSelectedTown] = useState('')
   const [selectedItem, setSelectedItem] = useState(null)
 
+  const { results: placesResults, loading: placesLoading } = usePlacesSearch(selectedTown, 'beach spiaggia')
+
   const filtered = useMemo(() => {
+    if (selectedTown) return []
     return beachesData.filter(item => {
       if (tab === 'All') return true
       if (tab === 'Family Friendly') return item.scores.family >= 4
@@ -70,34 +84,80 @@ export default function Beaches({ addItem, removeItem, isSaved }) {
       if (tab === 'Beach Clubs') return item.filter === 'Beach Clubs'
       return true
     })
-  }, [tab])
+  }, [tab, selectedTown])
 
   const handleSave = (item, btype) => {
     if (isSaved(item.id, btype)) removeItem(item.id, btype)
     else addItem({ ...item, btype })
   }
 
+  const handlePlacesSave = (place) => {
+    const item = {
+      id: place.place_id,
+      name: place.name,
+      description: place.formatted_address,
+      img: place.photos?.[0]?.photo_reference
+        ? `/api/places-photo?ref=${encodeURIComponent(place.photos[0].photo_reference)}&maxWidth=800`
+        : `https://picsum.photos/seed/${encodeURIComponent(place.name)}/800/600`,
+      rating: place.rating,
+      btype: 'beaches'
+    }
+    if (isSaved(item.id, 'beaches')) removeItem(item.id, 'beaches')
+    else addItem(item)
+  }
+
   return (
     <section className="section-container">
       <div className="mb-8">
-        <h2 className="text-[#1B3A8C] text-3xl font-bold mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>Beaches</h2>
-        <p className="text-[#7A82A8]">Italy's finest shores — from Sardinian crystal coves to Amalfi glamour</p>
+        <div className="flex items-center gap-3 mb-3">
+          <span className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-[#1B3A8C]/10">
+            <svg className="w-5 h-5 text-[#1B3A8C]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </span>
+          <div>
+            <h2 className="text-[#1B3A8C] text-3xl font-bold leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>Beaches</h2>
+            <p className="text-[#7A82A8] text-sm mt-0.5">Search any coastal town for beaches, or browse curated shores</p>
+          </div>
+        </div>
       </div>
 
-      <div className="flex gap-2 overflow-x-auto pb-2 mb-8 no-scrollbar">
-        {TABS.map(t => (
-          <button key={t} onClick={() => setTab(t)}
-            className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors min-h-[44px] ${tab === t ? 'bg-[#1B3A8C] text-white' : 'bg-white text-[#3A4260] hover:bg-[#E8ECF5] border border-[#E8ECF5]'}`}>
-            {t}
-          </button>
-        ))}
+      <div className="mb-6">
+        <TownSearch
+          placeholder="Search beaches near any Italian town..."
+          onSelect={(t) => { setSelectedTown(t); setSearch(t) }}
+          onChange={(v) => { setSearch(v); if (!v) setSelectedTown('') }}
+          value={search}
+        />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filtered.map(item => (
-          <BeachCard key={item.id} item={item} onSave={handleSave} isSaved={isSaved} onClick={setSelectedItem} />
-        ))}
-      </div>
+      {selectedTown ? (
+        <PlacesResults
+          town={selectedTown}
+          results={placesResults}
+          loading={placesLoading}
+          onSave={handlePlacesSave}
+          isSaved={isSaved}
+          onClear={() => { setSelectedTown(''); setSearch('') }}
+        />
+      ) : (
+        <>
+          <div className="flex gap-2 overflow-x-auto pb-2 mb-8 no-scrollbar">
+            {TABS.map(t => (
+              <button key={t} onClick={() => setTab(t)}
+                className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all min-h-[44px] ${tab === t ? 'bg-[#1B3A8C] text-white shadow-md' : 'bg-white text-[#3A4260] hover:bg-[#E8ECF5] border border-[#E8ECF5]'}`}>
+                {t}
+              </button>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filtered.map(item => (
+              <BeachCard key={item.id} item={item} onSave={handleSave} isSaved={isSaved} onClick={setSelectedItem} />
+            ))}
+          </div>
+        </>
+      )}
 
       {selectedItem && (
         <Modal item={selectedItem} btype="beaches" onClose={() => setSelectedItem(null)} onSave={handleSave} isSaved={isSaved} />
