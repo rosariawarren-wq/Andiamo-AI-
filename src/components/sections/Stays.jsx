@@ -23,7 +23,7 @@ function StayCard({ item, onSave, isSaved, onClick }) {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group" onClick={() => onClick(item)}>
       <div className="relative aspect-[4/3] overflow-hidden">
-        <img src={item.img} alt={item.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+        <img src={item.img} alt={item.name} onError={e => { e.target.onerror = null; e.target.src = "https://source.unsplash.com/800x600/?italy,travel" }} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
         <button
           onClick={e => { e.stopPropagation(); onSave(item, 'stays') }}

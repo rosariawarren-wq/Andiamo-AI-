@@ -11,7 +11,7 @@ export const foodData = [
     rating: 4.8,
     price: "€€",
     description: "The definitive old-school Roman trattoria in Trastevere. Marble tables, handwritten menu and the best cacio e pepe in the city. Queue early — no reservations for lunch.",
-    img: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?trattoria,rome,pasta,italy"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const foodData = [
     rating: 4.6,
     price: "€",
     description: "The most gloriously unchanged bar in Rome — plastic chairs, €1 espresso, grizzled regulars and the best frozen chocolate in the city. A Trastevere institution since 1950.",
-    img: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?espresso,cafe,rome,italy"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const foodData = [
     rating: 4.9,
     price: "€",
     description: "Rome's best artisan gelateria, tucked behind Piazza Navona. Watch them make it through a glass panel. No artificial colours or flavours — only seasonal ingredients.",
-    img: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?gelato,artisan,italy,flavours"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const foodData = [
     rating: 5.0,
     price: "€€€€",
     description: "Massimo Bottura's three-Michelin-star restaurant — formerly ranked #1 in the world. Waiting list of months but a bucket-list meal. Emotionally and intellectually transformative Italian cuisine.",
-    img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?fine,dining,restaurant,michelin"
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ export const foodData = [
     rating: 4.8,
     price: "€",
     description: "The spleen sandwich (pani ca meusa) is Palermo's most divisive dish — and this is the best version in the city. Join the lunch queue of taxi drivers and market workers.",
-    img: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?street,food,sicily,palermo"
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ export const foodData = [
     rating: 4.9,
     price: "€€€€",
     description: "Italy's most celebrated wine cellar beneath a 15th-century palazzo. The cooking matches the wines in ambition and precision — a once-in-a-decade meal.",
-    img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?wine,cellar,florence,italy"
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ export const foodData = [
     rating: 4.7,
     price: "€",
     description: "Europe's largest open-air market. 800 stalls selling everything from Castelmagno cheese to white truffles in season. Go on Saturday morning for the full spectacle.",
-    img: "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?market,italy,produce,food"
   },
   {
     id: 8,
@@ -109,7 +109,7 @@ export const foodData = [
     rating: 4.9,
     price: "€",
     description: "Operating since 1892, Corrado Assenza's pastry laboratory in Noto is a pilgrimage for anyone serious about Sicilian sweets. The almond granita with brioche is transcendent.",
-    img: "https://images.unsplash.com/photo-1571612630687-bdb78af51b6d?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?pastry,sicilian,sweets,cannoli"
   },
   {
     id: 9,
@@ -123,7 +123,7 @@ export const foodData = [
     rating: 4.6,
     price: "€€€€",
     description: "Ernest Hemingway's favourite bar and the birthplace of both the Bellini and Carpaccio. Pay tourist prices willingly for the privilege of drinking where history was made.",
-    img: "https://images.unsplash.com/photo-1575444758702-4a6b9222336e?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?cocktail,bar,venice,italy"
   },
   {
     id: 10,
@@ -137,7 +137,7 @@ export const foodData = [
     rating: 4.8,
     price: "€",
     description: "Since 1870, L'Antica Pizzeria da Michele has served only two pizzas. Julia Roberts ate here in Eat Pray Love. The queue is 45 minutes and completely worth it.",
-    img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?pizza,naples,margherita,italy"
   },
   {
     id: 11,
@@ -151,7 +151,7 @@ export const foodData = [
     rating: 4.7,
     price: "€€€",
     description: "Beneath the Ponte Vecchio since 1976. Stone arched cellar, white tablecloths and the definitive bistecca alla Fiorentina — 1.2kg of Chianina beef, T-bone, perfect char.",
-    img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?bistecca,steak,florence,restaurant"
   },
   {
     id: 12,
@@ -165,7 +165,7 @@ export const foodData = [
     rating: 4.7,
     price: "€€",
     description: "Bologna's best osteria in a 15th-century palazzo cellar. Live jazz every night, extraordinary Emilian cold cuts and a wine list of 500 labels. Reserve for dinner.",
-    img: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?wine,bar,bologna,italy"
   },
   {
     id: 13,
@@ -179,7 +179,7 @@ export const foodData = [
     rating: 4.7,
     price: "€",
     description: "The greatest street-food stand in Naples — a cuoppo of mixed fried seafood eaten walking through the Spanish Quarter. Open since 1953 and unchanged since.",
-    img: "https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?fried,seafood,naples,street"
   },
   {
     id: 14,
@@ -193,7 +193,7 @@ export const foodData = [
     rating: 4.5,
     price: "€€€€",
     description: "The oldest continuously operating coffee house in the world (est. 1720), overlooking Piazza San Marco. Pay €20 for an espresso and live orchestra — it's obligatory once.",
-    img: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?caffe,florian,venice,historic"
   },
   {
     id: 15,
@@ -207,7 +207,7 @@ export const foodData = [
     rating: 4.9,
     price: "€",
     description: "Syracuse's best granita — served the traditional Sicilian way in a brioche. The almond and mulberry versions are legendary. Open from 6am for breakfast.",
-    img: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?granita,sicily,almond,brioche"
   },
   {
     id: 16,
@@ -221,7 +221,7 @@ export const foodData = [
     rating: 4.7,
     price: "€",
     description: "Communal marble tables since 1953 — you'll sit with strangers. A 45-minute lunch service, cash only, no menu choices — just what Mario cooks that day. Pure Florence.",
-    img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?trattoria,lunch,tuscany,italy"
   },
   {
     id: 17,
@@ -235,7 +235,7 @@ export const foodData = [
     rating: 4.5,
     price: "€€",
     description: "Inside Termini station's 19th-century iron hall — 15 artisan producers under one roof. Mortadella e pistacchio tramezzini, suppli, fried artichoke, Sicilian arancini.",
-    img: "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?food,market,rome,artisan"
   },
   {
     id: 18,
@@ -249,7 +249,7 @@ export const foodData = [
     rating: 4.8,
     price: "€",
     description: "Gabriele Bonci's legendary Prati bakery — the man who reinvented Roman pizza al taglio. Sold by weight, eaten standing. His focaccia changed the world.",
-    img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?focaccia,bread,bakery,rome"
   },
   {
     id: 19,
@@ -263,7 +263,7 @@ export const foodData = [
     rating: 4.8,
     price: "€€€",
     description: "The temple of Piedmontese cuisine in Alba — truffle capital of the world. In October, the white truffle tasting menu shaved tableside is an unbeatable experience.",
-    img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?truffle,risotto,alba,piedmont"
   },
   {
     id: 20,
@@ -277,6 +277,6 @@ export const foodData = [
     rating: 4.7,
     price: "€€€",
     description: "Milan's most aristocratic pasticceria, founded in 1824, now partly owned by Prada. Via Montenapoleone location for maximum fashion-world theatre. The panettone is the finest in Italy.",
-    img: "https://images.unsplash.com/photo-1571612630687-bdb78af51b6d?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?panettone,milan,pastry,luxury"
   }
 ]

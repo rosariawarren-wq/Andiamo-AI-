@@ -9,7 +9,7 @@ export const neighborhoodsData = [
     bestFor: "Authentic Roman dining, evening walks, neighbourhood feel",
     stayTip: "Stay in an apartment rather than a hotel — Residenza Arco dei Tolomei or similar gives you a genuine Trastevere life.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?trastevere,rome,cobblestone,italy"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const neighborhoodsData = [
     bestFor: "Upscale dining, gallery access, quiet streets, safety",
     stayTip: "Hotel Lord Byron — a Liberty-era mansion that is Rome's best-kept luxury secret.",
     scores: { location: 4, value: 3, safety: 5 },
-    img: "https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?rome,elegant,boulevard,italy"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const neighborhoodsData = [
     bestFor: "Artisan culture, local restaurants, Pitti Palace, Boboli Gardens",
     stayTip: "Appartamento Firenze or Soprarno Suites — both have authentic Florentine character.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://images.unsplash.com/photo-1543039625-14b4bb8b8c5a?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?florence,oltrarno,arno,italy"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const neighborhoodsData = [
     bestFor: "Authentic Venice, local bars, Jewish history, value accommodation",
     stayTip: "Palazzo Abadessa — a genuine Gothic palazzo away from the tourist circuit.",
     scores: { location: 4, value: 4, safety: 5 },
-    img: "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?venice,cannaregio,canal,quiet"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ export const neighborhoodsData = [
     bestFor: "Aperitivo culture, nightlife, vintage shopping, design scene",
     stayTip: "Arlo Milano — boutique hotel that anchors perfectly in the Navigli social orbit.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://images.unsplash.com/photo-1547150492-da7ff1742941?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?milan,navigli,canal,aperitivo"
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ export const neighborhoodsData = [
     bestFor: "Safety, fine dining, seafront walking, upscale shopping",
     stayTip: "Grand Hotel Vesuvio — the grand dame of Naples hotels, on the seafront.",
     scores: { location: 5, value: 3, safety: 5 },
-    img: "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?naples,seafront,elegant,italy"
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ export const neighborhoodsData = [
     bestFor: "Upscale Palermo life, theatre, opera, beach access",
     stayTip: "Hotel Porta Felice — overlooks the Foro Italico seafront.",
     scores: { location: 4, value: 4, safety: 4 },
-    img: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?palermo,sicily,street,italy"
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ export const neighborhoodsData = [
     bestFor: "Food culture, local life, medieval architecture, value",
     stayTip: "Hotel I Portici — under the oldest porticoes in Bologna.",
     scores: { location: 5, value: 4, safety: 5 },
-    img: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?bologna,portico,italy,medieval"
   },
   {
     id: 9,
@@ -105,6 +105,6 @@ export const neighborhoodsData = [
     bestFor: "History, quiet streets, swimming from rocks, Sicilian baroque",
     stayTip: "Gutkowski Hotel — a design hotel with rooms over the sea. Book far in advance.",
     scores: { location: 5, value: 4, safety: 5 },
-    img: "https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?w=800&q=80"
+    img: "https://source.unsplash.com/800x600/?siracusa,ortigia,sicily,baroque"
   }
 ]

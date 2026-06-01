@@ -9,7 +9,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€85/person",
     duration: "4 hours",
-    img: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?pasta,making,cooking,italy",
     tags: ["Cooking", "Local", "Hands-on"]
   },
   {
@@ -22,7 +22,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€45/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?street,food,market,palermo",
     tags: ["Street Food", "Markets", "Culture"]
   },
   {
@@ -35,7 +35,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€70/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?pizza,naples,italy,wood,oven",
     tags: ["Pizza", "Naples", "Hands-on"]
   },
   {
@@ -48,7 +48,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€110/person",
     duration: "5 hours",
-    img: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?chianti,wine,tuscany,vineyard",
     tags: ["Wine", "Tuscany", "Vineyard"]
   },
   {
@@ -61,7 +61,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€150/person",
     duration: "Half day",
-    img: "https://images.unsplash.com/photo-1608835291093-394b0c943a75?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?truffle,hunting,forest,umbria",
     tags: ["Truffle", "Umbria", "Unique"]
   },
   {
@@ -74,7 +74,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€65/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?olive,oil,farm,tuscany",
     tags: ["Olive Oil", "Farm", "Tasting"]
   },
   {
@@ -87,7 +87,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€95/person",
     duration: "2.5 hours",
-    img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?colosseum,rome,ancient,underground",
     tags: ["Ancient Rome", "VIP", "Guided"]
   },
   {
@@ -100,7 +100,7 @@ export const activitiesData = [
     rating: 5.0,
     price: "€180/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?vatican,sistine,chapel,rome",
     tags: ["Vatican", "Exclusive", "Art"]
   },
   {
@@ -113,7 +113,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€120/person",
     duration: "2 hours",
-    img: "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?gondola,venice,canal,night",
     tags: ["Gondola", "Venice", "Romantic"]
   },
   {
@@ -126,7 +126,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€80/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?pompeii,ancient,ruins,archaeology",
     tags: ["Pompeii", "Archaeology", "History"]
   },
   {
@@ -139,7 +139,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€75/person",
     duration: "2 hours",
-    img: "https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?florence,art,gallery,renaissance",
     tags: ["Art", "Florence", "Skip Line"]
   },
   {
@@ -152,7 +152,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€90/person",
     duration: "4 hours",
-    img: "https://images.unsplash.com/photo-1601991522551-c6ee59c4a42f?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?mosaic,art,workshop,craft",
     tags: ["Art", "Mosaic", "Workshop"]
   },
   {
@@ -165,7 +165,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€95/person",
     duration: "6 hours",
-    img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?dolomites,hiking,alpine,mountains",
     tags: ["Hiking", "Dolomites", "Alpine"]
   },
   {
@@ -178,7 +178,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€75/person",
     duration: "4 hours",
-    img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?kayaking,amalfi,coast,italy",
     tags: ["Kayak", "Amalfi", "Ocean"]
   },
   {
@@ -191,7 +191,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€60/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?sardinia,coastline,swimming,rocks",
     tags: ["Coasteering", "Sardinia", "Adventure"]
   },
   {
@@ -204,7 +204,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€110/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?vespa,rome,scooter,italy",
     tags: ["Vespa", "Rome", "City Tour"]
   },
   {
@@ -217,7 +217,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€165/person",
     duration: "Full day",
-    img: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?vespa,tuscany,countryside,wine",
     tags: ["Vespa", "Tuscany", "Wine"]
   },
   {
@@ -230,7 +230,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€140/person",
     duration: "Full day",
-    img: "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?amalfi,road,coast,scenic",
     tags: ["Drive", "Amalfi", "Scenic"]
   },
   {
@@ -243,7 +243,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "Free / €30",
     duration: "Half day",
-    img: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?thermal,spa,pool,italy",
     tags: ["Thermal", "Wellness", "Tuscany"]
   },
   {
@@ -256,7 +256,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€95/person",
     duration: "Full morning",
-    img: "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?yoga,retreat,countryside,italy",
     tags: ["Yoga", "Wellness", "Umbria"]
   },
   {
@@ -269,7 +269,7 @@ export const activitiesData = [
     rating: 5.0,
     price: "€280/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?hot,air,balloon,tuscany",
     tags: ["Balloon", "Tuscany", "Luxury"]
   },
   {
@@ -282,7 +282,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€80/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?kitesurfing,sardinia,wind,sea",
     tags: ["Kitesurfing", "Sardinia", "Water Sports"]
   },
   {
@@ -295,7 +295,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€90/person",
     duration: "Half day",
-    img: "https://images.unsplash.com/photo-1516592673884-4a382d1124c2?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?rock,climbing,cliff,italy",
     tags: ["Climbing", "Liguria", "Adventure"]
   },
   {
@@ -308,7 +308,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€55/person",
     duration: "2 hours",
-    img: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?gelato,italy,ice,cream,artisan",
     tags: ["Gelato", "Florence", "Cooking"]
   },
   {
@@ -321,7 +321,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€95/person",
     duration: "6 hours",
-    img: "https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?etna,volcano,hiking,sicily",
     tags: ["Volcano", "Etna", "Hiking"]
   },
   {
@@ -334,7 +334,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€25/person",
     duration: "Full day",
-    img: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?cinque,terre,hiking,coastal,path",
     tags: ["Hiking", "Cinque Terre", "Coastal"]
   },
   {
@@ -347,7 +347,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€80/person",
     duration: "3 hours",
-    img: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?venice,carnival,mask,craft",
     tags: ["Masks", "Venice", "Workshop"]
   },
   {
@@ -360,7 +360,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€130/person",
     duration: "5 hours",
-    img: "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?barolo,wine,piedmont,italy",
     tags: ["Barolo", "Piedmont", "Wine"]
   },
   {
@@ -373,7 +373,7 @@ export const activitiesData = [
     rating: 4.6,
     price: "€85/person",
     duration: "2 hours",
-    img: "https://images.unsplash.com/photo-1570636040252-08f1e218b28b?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?hammam,spa,luxury,wellness",
     tags: ["Hammam", "Wellness", "Palermo"]
   },
   {
@@ -386,7 +386,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€95/person",
     duration: "4 hours",
-    img: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?risotto,cooking,milan,italy",
     tags: ["Cooking", "Milan", "Risotto"]
   },
   {
@@ -399,7 +399,7 @@ export const activitiesData = [
     rating: 4.9,
     price: "€180/person",
     duration: "4 hours",
-    img: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?ferrari,car,luxury,italy",
     tags: ["Ferrari", "Cars", "Luxury"]
   },
   {
@@ -412,7 +412,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€120/person",
     duration: "Full day",
-    img: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?masseria,farm,puglia,italy",
     tags: ["Farm", "Puglia", "Authentic"]
   },
   {
@@ -425,7 +425,7 @@ export const activitiesData = [
     rating: 4.8,
     price: "€70/person",
     duration: "Half day",
-    img: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?scuba,diving,underwater,italy",
     tags: ["Diving", "Sicily", "Marine"]
   },
   {
@@ -438,7 +438,7 @@ export const activitiesData = [
     rating: 4.7,
     price: "€145/person",
     duration: "Full day",
-    img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?fiat,500,vintage,rome,italy",
     tags: ["Fiat 500", "Rome", "Self Drive"]
   }
 ]

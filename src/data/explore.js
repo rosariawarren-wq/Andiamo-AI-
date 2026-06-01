@@ -10,7 +10,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 12400,
     price: "€€",
-    img: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?greek,temple,ancient,sicily",
     tags: ["Ancient History", "UNESCO", "Architecture"]
   },
   {
@@ -24,7 +24,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 3200,
     price: "€€€",
-    img: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?vineyard,volcano,sicily,wine",
     tags: ["Wine", "Volcano", "Food & Wine"]
   },
   {
@@ -38,7 +38,7 @@ export const exploreData = [
     rating: 4.9,
     reviewCount: 89000,
     price: "€€",
-    img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?colosseum,rome,ancient,italy",
     tags: ["Ancient Rome", "UNESCO", "Iconic"]
   },
   {
@@ -52,7 +52,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 45000,
     price: "€",
-    img: "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?venice,canal,gondola,italy",
     tags: ["Canals", "Architecture", "Iconic"]
   },
   {
@@ -66,7 +66,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 18000,
     price: "€",
-    img: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?burano,colorful,houses,venice",
     tags: ["Colourful", "Islands", "Local Life"]
   },
   {
@@ -80,7 +80,7 @@ export const exploreData = [
     rating: 4.9,
     reviewCount: 32000,
     price: "Free",
-    img: "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?amalfi,coast,cliffs,italy",
     tags: ["Scenic Drive", "Coast", "Nature"]
   },
   {
@@ -94,7 +94,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 67000,
     price: "€€",
-    img: "https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?florence,art,renaissance,museum",
     tags: ["Art", "Renaissance", "Must-See"]
   },
   {
@@ -108,7 +108,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 22000,
     price: "€",
-    img: "https://images.unsplash.com/photo-1601342630314-8427c38bf5e6?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?sicily,ancient,theatre,taormina",
     tags: ["Ancient", "Theatre", "Views"]
   },
   {
@@ -122,7 +122,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 14000,
     price: "€",
-    img: "https://images.unsplash.com/photo-1597423498219-04418210827d?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?trulli,puglia,italy,stone",
     tags: ["UNESCO", "Architecture", "Unique"]
   },
   {
@@ -136,7 +136,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 19000,
     price: "€",
-    img: "https://images.unsplash.com/photo-1553899843-d3a74b56a32b?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?matera,cave,city,italy",
     tags: ["Cave City", "UNESCO", "History"]
   },
   {
@@ -150,7 +150,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 28000,
     price: "€€",
-    img: "https://images.unsplash.com/photo-1633428806893-0e97da8e1085?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?lake,como,italy,mountains",
     tags: ["Lakes", "Luxury", "Nature"]
   },
   {
@@ -164,7 +164,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 52000,
     price: "€€",
-    img: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?cinque,terre,italy,village",
     tags: ["Villages", "Hiking", "Coastal"]
   },
   {
@@ -178,7 +178,7 @@ export const exploreData = [
     rating: 4.8,
     reviewCount: 41000,
     price: "€€€",
-    img: "https://images.unsplash.com/photo-1556760544-74068565f05c?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?positano,amalfi,coast,italy",
     tags: ["Cliffside", "Luxury", "Iconic"]
   },
   {
@@ -192,7 +192,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 8900,
     price: "€",
-    img: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?calabria,beach,cliff,italy",
     tags: ["Beach", "Clifftop", "Hidden"]
   },
   {
@@ -206,7 +206,7 @@ export const exploreData = [
     rating: 4.9,
     reviewCount: 6700,
     price: "Free",
-    img: "https://images.unsplash.com/photo-1590736704728-f4730bb30770?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?sardinia,cove,crystal,beach",
     tags: ["Beach", "Hiking", "Secluded"]
   },
   {
@@ -220,7 +220,7 @@ export const exploreData = [
     rating: 4.6,
     reviewCount: 4200,
     price: "€€",
-    img: "https://images.unsplash.com/photo-1609771741680-40b1f43dc645?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?cave,underground,italy,medieval",
     tags: ["Caves", "History", "Adventure"]
   },
   {
@@ -234,7 +234,7 @@ export const exploreData = [
     rating: 4.5,
     reviewCount: 3100,
     price: "Free",
-    img: "https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?thermal,hot,spring,tuscany",
     tags: ["Thermal", "Nature", "Local Secret"]
   },
   {
@@ -248,7 +248,7 @@ export const exploreData = [
     rating: 4.7,
     reviewCount: 21000,
     price: "€€€€",
-    img: "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=800&q=80",
+    img: "https://source.unsplash.com/800x600/?portofino,harbour,italy,luxury",
     tags: ["Luxury", "Harbour", "Glamour"]
   }
 ]
